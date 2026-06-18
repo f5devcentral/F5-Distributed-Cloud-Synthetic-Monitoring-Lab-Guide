@@ -72,21 +72,6 @@ The lab uses **Arcadia Finance** as the target application with three services:
 - **TLS Security Reports**: Analyze TLS scores and ratings
 - **DNS Monitoring**: Monitor domain resolution health
 
-## 📊 Monitoring Locations
-
-### AWS Regions
-- ap-southeast-1 (Singapore)
-- ap-southeast-2 (Sydney)
-- ap-northeast-1 (Tokyo)
-- ap-south-1 (Mumbai)
-- ap-east-1 (Hong Kong)
-
-### F5 Distributed Cloud
-- ves-io-sydney
-- ves-io-jakarta
-- ves-io-tokyo
-- ves-io-singapore
-- ves-io-hongkong
 
 ## 📝 License
 
