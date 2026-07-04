@@ -252,22 +252,24 @@ Navigate to **Synthetic Monitors > HTTP Monitors > All Monitors**. Click `arcadi
 
 > You can also switch HTTP Monitor from drop down on the top.
 
-![arcadia-api Healthy](images/image25.png)
+![arcadia-api Healthy](images/image25a.png)
 
 The HTTP Monitor for `arcadia-trading` changes between **Critical** and **Healthy** status across the majority of regions because the application is experiencing intermittent outages.
 
-![High Response Times](images/image28.png)
+![High Response Times](images/image28a.png)
+
+![High Response Times](images/image28b.png)
 
 Scroll down to **Response Time by Region**, observe that the response times are significantly higher.
 
-![Timeout Events](images/image29.png)
+![Timeout Events](images/image29a.png)
 
 Under **Events**, you may see some time out logs:
 
 ```
 Get "http://arcadia.f5xc.cloud/trading/login.php": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
 ```
-![Manage Configuration](images/image30.png)
+![Manage Configuration](images/image30a.png)
 
 Based on above behavior, the Trading service is on intermittent state.
 
