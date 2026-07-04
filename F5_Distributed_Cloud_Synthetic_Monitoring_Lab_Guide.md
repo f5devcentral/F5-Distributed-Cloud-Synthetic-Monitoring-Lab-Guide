@@ -7,6 +7,20 @@ In this lab, your mission is to monitor, validate, and optimize the digital expe
 By leveraging **F5® Distributed Cloud Synthetic Monitoring**, operations and application teams can reduce Mean Time to Resolution (MTTR) by quickly identifying service degradation, quantifying the blast radius of outages, and establishing a baseline for digital experience metrics. This capability plays a critical business-enabler role by allowing teams to receive timely alerts for critical events and respond proactively before customers report issues.
 
 ---
+### Lab Introduction
+
+This lab demonstrates how F5 Distributed Cloud Synthetic Monitoring can be used to continuously test web application availability and performance from multiple global locations. The target application is **Arcadia Finance**, which contains multiple services under the same application domain.
+
+- **Service 1**: Arcadia Main  
+  URL: https://arcadia.f5xc.cloud/
+
+- **Service 2**: Arcadia Trading  
+  URL: https://arcadia.f5xc.cloud/trading/login.php
+
+- **Service 3**: Arcadia API  
+  URL: https://arcadia.f5xc.cloud/rest/api/v1
+
+---
 
 ## Prerequisites
 
@@ -56,18 +70,6 @@ Choose **Advanced**, then click **Get Started**
 - Review TLS score, TLS detailed report, and PDF export from HTTP monitors.
 - Create & Observe DNS synthetic monitors for Arcadia domain.
 
-### Lab Introduction
-
-This lab demonstrates how F5 Distributed Cloud Synthetic Monitoring can be used to continuously test web application availability and performance from multiple global locations. The target application is **Arcadia Finance**, which contains multiple services under the same application domain.
-
-- **Service 1**: Arcadia Main  
-  URL: https://arcadia.f5xc.cloud/
-
-- **Service 2**: Arcadia Trading  
-  URL: https://arcadia.f5xc.cloud/trading/login.php
-
-- **Service 3**: Arcadia API  
-  URL: https://arcadia.f5xc.cloud/rest/api/v1
 ![Observability Dashboard](images/image9.png)
 Access Synthetic Monitoring Dashboard by navigating to **Observability** from the home page of F5 Distributed Cloud Console
 
@@ -80,8 +82,6 @@ Access Synthetic Monitoring Dashboard by navigating to **Observability** from th
 In this section, create three HTTP monitors. Each monitor targets a different Arcadia Finance endpoint so students can compare the availability of application services from the same domain.
 
 > Use consistent locations and threshold values across all monitors. This makes it easier to compare results across the Main Page, Trading Service, and API Service.
-
-
 
 ### 1.1 - Add 1st HTTP Monitor: Arcadia Main Page
 
