@@ -258,7 +258,7 @@ Navigate to **Synthetic Monitors > HTTP Monitors > All Monitors**. Click `arcadi
 
 ![arcadia-api Healthy](images/image25.png)
 
-HTTP Monitor on `arcadia-trading` shown **Critical** status across the majority of regions. This due to time out.
+The HTTP Monitor for `arcadia-trading` changes between **Critical** and **Healthy** status across the majority of regions because the application is experiencing intermittent outages.
 
 ![High Response Times](images/image28.png)
 
