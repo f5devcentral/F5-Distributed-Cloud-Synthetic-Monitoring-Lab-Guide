@@ -216,11 +216,11 @@ Newly created monitors typically require 3–5 minutes before monitoring data be
 
 After about 10 minutes, you will observe that one HTTP Monitor repeatedly transitions to a Critical state, shown by the red line fluctuating on the graph. If you refresh the page during one of these periods, the Current HTTP Monitor Status may show 1 Critical.
 
-Next, let's examine each HTTP Monitor individually.
-
 ![Select arcadia-main](images/image19a.png)
 
-### 2a. Observe arcadia-main
+Next, let's examine each HTTP Monitor individually.
+
+### 2a. Observe Arcadia Main
 
 First, observe the first HTTP monitor, arcadia-main.
 
@@ -249,9 +249,7 @@ Scroll down to observe **Events & Current Status by Region**
 
 The Main service is in a Healthy state.
 
-### 2b. Observe arcadia-trading
-
-Observe Arcadia Trading.
+### 2b. Observe Arcadia Trading
 
 Navigate to **Synthetic Monitors > HTTP Monitors > All Monitors**. Click `arcadia-trading`.
 
@@ -278,9 +276,7 @@ Based on above behavior, the Trading service is on intermittent state.
 
 ---
 
-### 2c. Observe arcadia-api
-
-Observe Arcadia API.
+### 2c. Observe Arcadia API
 
 Navigate to **Synthetic Monitors > HTTP Monitors > All Monitors**. Click `arcadia-api`.
 
