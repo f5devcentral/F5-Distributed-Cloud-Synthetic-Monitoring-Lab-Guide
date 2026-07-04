@@ -20,6 +20,9 @@ This lab demonstrates how F5 Distributed Cloud Synthetic Monitoring can be used 
 - **Service 3**: Arcadia API  
   URL: https://arcadia.f5xc.cloud/rest/api/v1
 
+![Observability Dashboard](images/image9.png)
+
+
 ---
 
 ## Prerequisites
@@ -60,9 +63,7 @@ Choose **Advanced**, then click **Get Started**
 
 ![Get Started](images/image8.png)
 
-![Observability Dashboard](images/image9.png)
 Access Synthetic Monitoring Dashboard by navigating to **Observability** from the home page of F5 Distributed Cloud Console
-
 ---
 
 ## Start Lab
