@@ -100,7 +100,7 @@ Navigate to **Observability > Manage > Synthetic Monitors > HTTP Monitors**. Cli
 |---------|-----------|-------|
 | **Metadata** | Name | `arcadia-main` |
 
-![Metadata Config](images/image12.png)
+![Metadata Config](images/image12a.png)
 
 | Section | Parameter | Value |
 |---------|-----------|-------|
@@ -110,7 +110,9 @@ Navigate to **Observability > Manage > Synthetic Monitors > HTTP Monitors**. Cli
 | | Valid Response Code | 2**, 3**, 4** |
 | | Receive String | `Financial Expert Advice` |
 
-![What to Monitor Config](images/image13.png)
+![What to Monitor Config](images/image12b.png)
+
+![What to Monitor Config](images/image12c.png)
 
 | Section | Parameter | Value |
 |---------|-----------|-------|
