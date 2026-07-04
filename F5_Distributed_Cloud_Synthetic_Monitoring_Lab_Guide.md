@@ -119,7 +119,7 @@ Navigate to **Observability > Manage > Synthetic Monitors > HTTP Monitors**. Cli
 | **Where to Monitor From** | AWS | ap-southeast-1, ap-southeast-2, ap-northeast-1, ap-south-1, ap-east-1 |
 | | F5 Distributed Cloud | ves-io-sydney, ves-io-jakarta, ves-io-tokyo, ves-io-singapore, ves-io-hongkong |
 
-![Where to Monitor From Config](images/image14a.png)
+![Where to Monitor From Config](images/image14b.png)
 
 ![Where to Monitor From Config](images/image15.png)
 
