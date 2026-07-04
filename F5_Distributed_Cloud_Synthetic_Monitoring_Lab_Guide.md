@@ -204,7 +204,7 @@ This monitor validates that the main Arcadia API Service. Repeat from the previo
 
 All 3 HTTP monitors configured shown in the picture
 
-![HTTP Monitor Dashboard](images/image18.png)
+![HTTP Monitor Dashboard](images/image18a.png)
 ---
 
 ## 2 - Observe HTTP Synthetic Monitors
