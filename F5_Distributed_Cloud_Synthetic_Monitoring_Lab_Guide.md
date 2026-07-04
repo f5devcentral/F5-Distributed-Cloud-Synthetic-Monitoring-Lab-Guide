@@ -119,15 +119,15 @@ Navigate to **Observability > Manage > Synthetic Monitors > HTTP Monitors**. Cli
 | **Where to Monitor From** | AWS | ap-southeast-1, ap-southeast-2, ap-northeast-1, ap-south-1, ap-east-1 |
 | | F5 Distributed Cloud | ves-io-sydney, ves-io-jakarta, ves-io-tokyo, ves-io-singapore, ves-io-hongkong |
 
+![Where to Monitor From Config](images/image14a.png)
+
+![Where to Monitor From Config](images/image15.png)
+
+![Where to Monitor From Config](images/image16.png)
+
 ![Where to Monitor From Config](images/image14.png)
 
 
-
-![How to Monitor Config](images/image15.png)
-
-
-
-![Add HTTP Monitor Complete](images/image16.png)
 | Section | Parameter | Value |
 |---------|-----------|-------|
 | **How to Monitor** | Response Timeout | 5000 ms |
@@ -135,8 +135,13 @@ Navigate to **Observability > Manage > Synthetic Monitors > HTTP Monitors**. Cli
 | | Number of Failed Locations | 3 |
 | | Ignore Cert Error | True |
 | | Follow Redirects | True |
----
+
+![How to Monitor](images/image17a.png)
+
 Click **Add HTTP Monitor**
+
+---
+
 ### 1.2 - Add 2nd HTTP Monitor: Arcadia Trading
 
 This monitor validates that the main Arcadia Trading Service. Repeat from the previous steps with following parameters:
