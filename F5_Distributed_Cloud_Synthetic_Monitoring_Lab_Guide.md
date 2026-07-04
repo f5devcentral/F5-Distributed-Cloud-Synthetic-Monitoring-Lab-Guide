@@ -24,15 +24,19 @@ This lab demonstrates how F5 Distributed Cloud Synthetic Monitoring can be used 
 
 ## Prerequisites
 
-### Readiness
+### Lab Readiness
 
 Ensure LAB environment is ready and running to execute subsequent task.
 
 ![Lab Environment](images/image2.png)
 
+### MyF5 Login
+
 Ensure that you have a MyF5 account using the same email address you used to register for the lab. If you do not have one, please proceed with Sign Up. This step is required to sign in to the F5 XC Dashboard later. Sign in to MyF5 using the following URL: https://account.f5.com/myf5.
 
 ![MyF5 Sign In](images/image3.png)
+
+### F5 XC Tenant (f5-xc-lab-sec) Sign in
 
 After the lab environment is ready (Running status with a green icon), you will receive an email from no-reply@cloud.f5.com. Click **Accept Invitation**.
 
@@ -56,6 +60,9 @@ Choose **Advanced**, then click **Get Started**
 
 ![Get Started](images/image8.png)
 
+![Observability Dashboard](images/image9.png)
+Access Synthetic Monitoring Dashboard by navigating to **Observability** from the home page of F5 Distributed Cloud Console
+
 ---
 
 ## Start Lab
@@ -69,9 +76,6 @@ Choose **Advanced**, then click **Get Started**
 - Configure alert receiver, create alert policy and validate critical alert emails.
 - Review TLS score, TLS detailed report, and PDF export from HTTP monitors.
 - Create & Observe DNS synthetic monitors for Arcadia domain.
-
-![Observability Dashboard](images/image9.png)
-Access Synthetic Monitoring Dashboard by navigating to **Observability** from the home page of F5 Distributed Cloud Console
 
 
 ![HTTP Monitors Overview](images/image10.png)
