@@ -209,11 +209,16 @@ All 3 HTTP monitors configured shown in the picture
 
 ## 2 - Observe HTTP Synthetic Monitors (Arcadia Main, Trading, API)
 
-> Currently newly created monitors take ~3-5 min before data is available. Wait ~5-10 minutes until get more graph data.
 
-Navigate to **Synthetic Monitors > HTTP Monitors > Dashboard Tab**. Here you can see HTTP Monitor Status. There's 1 HTTP Monitor with Critical Status. Let's observe each HTTP Monitor.
+Navigate to **Synthetic Monitors > HTTP Monitors > Dashboard**. Here you can view the status of all HTTP monitors.
 
-![Select arcadia-main](images/image19.png)
+Newly created monitors typically require 3–5 minutes before monitoring data becomes available. Wait approximately 5–10 minutes for additional monitoring data to be collected.
+
+After about 10 minutes, you will observe that one HTTP Monitor repeatedly transitions to a Critical state, shown by the red line fluctuating on the graph. If you refresh the page during one of these periods, the Current HTTP Monitor Status may show 1 Critical.
+
+Next, let's examine each HTTP Monitor individually.
+
+![Select arcadia-main](images/image19a.png)
 
 ### 2a. Observe arcadia-main
 
