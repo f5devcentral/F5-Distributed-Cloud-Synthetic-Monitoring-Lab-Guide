@@ -226,26 +226,23 @@ First, observe the first HTTP monitor, arcadia-main.
 
 Navigate to **Synthetic Monitors > HTTP Monitors > All Monitors**. Click `arcadia-main`.
 
-![Global Summary](images/image20.png)
+![Global Summary](images/image20a.png)
 
 Select the **Last 1 Hour** time period. Observe on **Global Summary**, HTTP monitor status is **Healthy**. With Current, Avg, and Max Latency.
 
 Observe **Global Response Time Breakdown**. This can be used to analyze detailed latency for DNS Lookup, TCP Connection, TLS Handshake Server Processing and Content Transfer.
 
-
-
 > Global value is calculated by average from all regions configured
 
-![Response Time Breakdown](images/image21.png)
+![Response Time Breakdown](images/image21a.png)
 
-Scroll down to observe **Response Time by Region**. Previously, we configured "Where to Monitor From" by selecting 5 regions from AWS and 5 regions from F5 Distributed Cloud.
+Scroll down to the **Response Time by Region** section. Previously, we configured Where to Monitor From by selecting five AWS regions and five F5 Distributed Cloud regions. The graph shows the response time reported from each monitoring region, allowing you to compare application performance across different geographic locations.
 
 ![Response Time by Region](images/image22.png)
 
-Scroll down to observe **Events & Current Status by Region**
+Click the Regions tab to view the response time breakdown for each monitoring region. You can observe the response time and health status reported from each location.
 
-![Events and Status](images/image23.png)
-![Switch Monitor Dropdown](images/image24.png)
+![Response Time by Region](images/image23a.png)
 
 The Main service is in a Healthy state.
 
