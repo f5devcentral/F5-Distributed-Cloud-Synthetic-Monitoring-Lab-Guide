@@ -197,13 +197,13 @@ All 3 HTTP monitors configured shown in the picture
 
 ## 2 - Observe HTTP Synthetic Monitors
 
-> Currently newly created monitors take ~2-3 min before data is available.
+> Currently newly created monitors take ~3-5 min before data is available. Wait ~5-10 minutes until get more graph data.
 
 Navigate to **Synthetic Monitors > HTTP Monitors > Dashboard Tab**. Here you can see HTTP Monitor Status. There's 1 HTTP Monitor with Critical Status. Let's observe each HTTP Monitor.
 
 ![Select arcadia-main](images/image19.png)
 
-### Observe arcadia-main
+### 2a. Observe arcadia-main
 
 First, observe the first HTTP monitor, arcadia-main.
 
@@ -229,7 +229,7 @@ Scroll down to observe **Events & Current Status by Region**
 
 ![Events and Status](images/image23.png)
 ![Switch Monitor Dropdown](images/image24.png)
-### Observe arcadia-api
+### 2b. Observe arcadia-api
 
 Observe 2nd HTTP Monitor – Arcadia API.
 
@@ -243,7 +243,7 @@ HTTP Monitor on `arcadia-api` shown **Healthy** Status. No time out from all reg
 
 ![Switch to arcadia-trading](images/image26.png)
 ![arcadia-trading Critical](images/image27.png)
-### Observe arcadia-trading
+### 2c. Observe arcadia-trading
 
 Observe the third HTTP Monitor, Arcadia Trading.
 
@@ -262,8 +262,6 @@ Scroll down to **Response Time by Region**, observe that the response times are 
 ![Timeout Events](images/image29.png)
 
 Under **Events**, you observe time out logs:
-
-
 
 ```
 Get "http://arcadia.f5xc.cloud/trading/login.php": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
