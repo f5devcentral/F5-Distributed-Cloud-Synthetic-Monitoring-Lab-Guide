@@ -281,14 +281,16 @@ Navigate to **Synthetic Monitors > HTTP Monitors > All Monitors**. Click `arcadi
 
 > You can also switch HTTP Monitor from drop down on the top.
 
-![arcadia-api Healthy](images/image25.png)
+![arcadia-api Healthy](images/image25b.png)
 
 HTTP Monitor on `arcadia-api` shown **Healthy** Status. No time out from all regions.
 
-![Switch to arcadia-trading](images/image26.png)
-![arcadia-trading Critical](images/image27.png)
+![Switch to arcadia-trading](images/image26a.png)
+![arcadia-trading Critical](images/image27a.png)
 
 The API service is in a Healthy state.
+
+### Key Observation
 
 Based on the three conditions above, the Main and API services remain healthy, while the Trading service experiences intermittent availability. This demonstrates how Synthetic Monitoring provides service-level visibility, enabling you to identify when an individual service becomes intermittent or unhealthy within a single application.
 
