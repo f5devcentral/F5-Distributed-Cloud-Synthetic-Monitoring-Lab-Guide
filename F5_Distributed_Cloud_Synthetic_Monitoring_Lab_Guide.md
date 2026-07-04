@@ -63,7 +63,6 @@ Choose **Advanced**, then click **Get Started**
 
 ![Get Started](images/image8.png)
 
-Access Synthetic Monitoring Dashboard by navigating to **Observability** from the home page of F5 Distributed Cloud Console
 ---
 
 ## Start Lab
@@ -78,6 +77,7 @@ Access Synthetic Monitoring Dashboard by navigating to **Observability** from th
 - Review TLS score, TLS detailed report, and PDF export from HTTP monitors.
 - Create & Observe DNS synthetic monitors for Arcadia domain.
 
+Access Synthetic Monitoring Dashboard by navigating to **Observability** from the home page of F5 Distributed Cloud Console
 
 ![HTTP Monitors Overview](images/image10.png)
 ---
