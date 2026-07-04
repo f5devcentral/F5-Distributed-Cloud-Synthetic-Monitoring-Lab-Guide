@@ -82,7 +82,7 @@ Access Synthetic Monitoring Dashboard by navigating to **Observability** from th
 ![HTTP Monitors Overview](images/image10.png)
 ---
 
-## 1 - Configure HTTP Synthetic Monitors
+## 1 - Configure HTTP Synthetic Monitors (Arcadia Main, Trading, API)
 
 In this section, create three HTTP monitors. Each monitor targets a different Arcadia Finance endpoint so students can compare the availability of application services from the same domain.
 
@@ -207,7 +207,7 @@ All 3 HTTP monitors configured shown in the picture
 ![HTTP Monitor Dashboard](images/image18a.png)
 ---
 
-## 2 - Observe HTTP Synthetic Monitors
+## 2 - Observe HTTP Synthetic Monitors (Arcadia Main, Trading, API)
 
 > Currently newly created monitors take ~3-5 min before data is available. Wait ~5-10 minutes until get more graph data.
 
@@ -241,23 +241,12 @@ Scroll down to observe **Events & Current Status by Region**
 
 ![Events and Status](images/image23.png)
 ![Switch Monitor Dropdown](images/image24.png)
-### 2b. Observe arcadia-api
 
-Observe 2nd HTTP Monitor – Arcadia API.
+The Main service is in a Healthy state.
 
-Navigate to **Synthetic Monitors > HTTP Monitors > All Monitors**. Click `arcadia-api`.
+### 2b. Observe arcadia-trading
 
-> You can also switch HTTP Monitor from drop down on the top.
-
-![arcadia-api Healthy](images/image25.png)
-
-HTTP Monitor on `arcadia-api` shown **Healthy** Status. No time out from all regions.
-
-![Switch to arcadia-trading](images/image26.png)
-![arcadia-trading Critical](images/image27.png)
-### 2c. Observe arcadia-trading
-
-Observe the third HTTP Monitor, Arcadia Trading.
+Observe Arcadia Trading.
 
 Navigate to **Synthetic Monitors > HTTP Monitors > All Monitors**. Click `arcadia-trading`.
 
@@ -273,16 +262,35 @@ Scroll down to **Response Time by Region**, observe that the response times are 
 
 ![Timeout Events](images/image29.png)
 
-Under **Events**, you observe time out logs:
+Under **Events**, you may see some time out logs:
 
 ```
 Get "http://arcadia.f5xc.cloud/trading/login.php": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
 ```
 ![Manage Configuration](images/image30.png)
 
-> The Arcadia Trading service is experiencing an issue.
+Based on above behavior, the Trading service is on intermittent state.
 
-> This behaviour demonstrates that even within a single application, Synthetic Monitoring can detect when an individual service becomes intermittent or unhealthy.
+---
+
+### 2c. Observe arcadia-api
+
+Observe Arcadia API.
+
+Navigate to **Synthetic Monitors > HTTP Monitors > All Monitors**. Click `arcadia-api`.
+
+> You can also switch HTTP Monitor from drop down on the top.
+
+![arcadia-api Healthy](images/image25.png)
+
+HTTP Monitor on `arcadia-api` shown **Healthy** Status. No time out from all regions.
+
+![Switch to arcadia-trading](images/image26.png)
+![arcadia-trading Critical](images/image27.png)
+
+The API service is in a Healthy state.
+
+Based on the three conditions above, the Main and API services remain healthy, while the Trading service experiences intermittent availability. This demonstrates how Synthetic Monitoring provides service-level visibility, enabling you to identify when an individual service becomes intermittent or unhealthy within a single application.
 
 ---
 
