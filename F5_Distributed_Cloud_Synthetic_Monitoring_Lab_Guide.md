@@ -298,9 +298,9 @@ Based on the three conditions above, the Main and API services remain healthy, w
 
 ### Advanced Health Policy
 
-The Healthy/Critical status is determined by the configuration of "How to Monitor" and "Health Policy." Previously, we configured only the timeout setting. Now, we will configure a threshold policy.
+Previously, we configured only the Response Timeout (ms) in the How to Monitor section, which detects service timeouts. Now, we'll configure a Static Max Threshold policy to monitor response latency. This enables Synthetic Monitoring to flag regions where response times exceed the configured threshold, even if requests still complete successfully.
 
-Let's change `arcadia-main` Health Policy Static Max Threshold to 200 ms.
+Let's change the Health Policy for `arcadia-main` by setting the Static Max Threshold to 200 ms. Any monitoring location with a response time above 200 ms during the evaluation period will be considered unhealthy.
 
 Click on **Manage Configuration** on the top left
 
