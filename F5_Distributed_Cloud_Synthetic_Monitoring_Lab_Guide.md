@@ -462,7 +462,7 @@ Click on **Open as PDF** to see detailed report. It will open pop up or new tab.
 
 
 Below is an example of a TLS Report. Refer to the PDF to review the detailed TLS report.
-![TLS Report PDF](images/image53.png)
+![TLS Report PDF](images/image53a.png)
 ### Compare TLS Reports
 
 Let's observe TLS Report for other HTTP Monitors previously configured.
@@ -480,7 +480,7 @@ Click on **Open as PDF** to see detailed report. It will open pop up or new tab.
 ![TLS Score](images/image52.png)
 
 Refer to the PDF to review the detailed TLS report.
-![arcadia-main TLS PDF](images/image56.png)
+![arcadia-main TLS PDF](images/image56a.png)
 ***End of Section***
 
 ---
