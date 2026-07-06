@@ -49,7 +49,7 @@ After the lab environment is ready (Running status with a green icon), you will 
 
 After accepting the invitation, your browser will open the "f5-xc-lab-sec" tenant sign-in page. Before clicking "Sign in with Okta", you must first sign in to your MyF5 account using the same browser.
 
-![Sign in with Okta](images/image5.png)
+![Sign in with Okta](images/image5a.png)
 
 If you successfully sign in to the F5 Distributed Cloud tenant, you will see the following page. Review the End User Services Agreement and F5 Privacy Policy, then click **Accept and Agree**.
 
@@ -376,8 +376,9 @@ Click on three dots > **Send Test Alert**. Click **Send Test Alert**
 ![Verify Receiver](images/image41.png)
 
 
-You'll receive email similar like this.
-![Send Test Alert](images/image42.png)
+You'll receive a test email similar to the one shown below.
+
+![Send Test Alert](images/image42a.png)
 
 
 ### Create Alert Policy
