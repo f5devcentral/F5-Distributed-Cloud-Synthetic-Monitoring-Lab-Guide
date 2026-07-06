@@ -45,7 +45,7 @@ After the lab environment is ready (Running status with a green icon), you will 
 
 ![Accept Invitation](images/image4a.png)
 
-> To successfully sign in to F5 Distributed Cloud tenant, first sign in to MyF5 Account on the same browser.
+To successfully sign in to F5 Distributed Cloud tenant, first sign in to MyF5 Account on the same browser.
 
 After accepting the invitation, your browser will open the "f5-xc-lab-sec" tenant sign-in page. Before clicking "Sign in with Okta", you must first sign in to your MyF5 account using the same browser.
 
@@ -86,7 +86,7 @@ Access Synthetic Monitoring Dashboard by navigating to **Observability** from th
 
 In this section, create three HTTP monitors. Each monitor targets a different Arcadia Finance endpoint so students can compare the availability of application services from the same domain.
 
-> Use consistent locations and threshold values across all monitors. This makes it easier to compare results across the Main Page, Trading Service, and API Service.
+Use consistent locations and threshold values across all monitors. This makes it easier to compare results across the Main Page, Trading Service, and API Service.
 
 ### 1.1 - Add 1st HTTP Monitor: Arcadia Main Page
 
@@ -232,7 +232,7 @@ Select the **Last 1 Hour** time period. Observe on **Global Summary**, HTTP moni
 
 Observe **Global Response Time Breakdown**. This can be used to analyze detailed latency for DNS Lookup, TCP Connection, TLS Handshake Server Processing and Content Transfer.
 
-> Global value is calculated by average from all regions configured
+Global value is calculated by average from all regions configured
 
 ![Response Time Breakdown](images/image21a.png)
 
