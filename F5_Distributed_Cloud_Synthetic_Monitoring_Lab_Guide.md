@@ -433,7 +433,7 @@ Add item > select `monitoring-alert-policy`. Click **Save Active Alert Policies*
 
 
 After ~10 minutes, you will receive alert on email for Critical Status on Arcadia-Trading HTTP Monitor. Below is the example email alert.
-![Save Alert Policy](images/image48.png)
+![Save Alert Policy](images/image48a.png)
 
 
 ***End of Section***
