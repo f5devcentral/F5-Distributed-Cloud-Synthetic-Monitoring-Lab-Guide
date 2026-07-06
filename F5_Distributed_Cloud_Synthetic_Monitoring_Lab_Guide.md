@@ -331,9 +331,9 @@ The results will show several regions. In the example below, AWS ap-southeast-2 
 
 ---
 
-## 3 – Alert Policy
+## 4 – Alert Policy
 
-Let's create an alert receiver and alert policy to send email alerts for critical events.
+In this section, we'll create an Alert Receiver and an Alert Policy to automatically send email notifications for critical events.
 
 ### Create Alert Receiver
 
@@ -344,13 +344,18 @@ Navigate to **Manage > Alerts Management > Alert Receivers**. Add Alert Receiver
 | Name | `email-alert-receiver` |
 | Receiver | Email |
 | Email | `<enter your email>` |
+
+
 ![Region Status](images/image35.png)
 
 
 Click **Add Receiver**
 
 After created, click on three dots on the right > **Verify Email**. Click **Send email**
+
 ![Alert Receiver Config](images/image36.png)
+
+
 ![Verify Email](images/image37.png)
 
 
@@ -361,6 +366,7 @@ Check the email address you entered. You will receive an email containing a veri
 Click on three dots > **Enter Verification Code > Verify Receiver**
 
 ![Verification Email](images/image39.png)
+
 ![Enter Code](images/image40.png)
 
 
@@ -382,6 +388,8 @@ Navigate to **Manage > Alerts Management > Alert Policies**. Add Alert Policy.
 |-----------|-------|
 | Name | `monitoring-alert-policy` |
 | Alert Receiver | `email-alert-receiver` |
+
+
 ![Test Alert Email](images/image43.png)
 
 
@@ -394,6 +402,8 @@ Enable **Show Advanced Fields**.
 | Select Alerts | Matching Alertname |
 | Matching Alertname | `SyntheticMonitorHealthCritical` |
 | Action | Send |
+
+
 ![Alert Policy Config](images/image44.png)
 
 
@@ -404,6 +414,8 @@ On **Policy Rule Notification Parameters**, click **Configure**
 | Notify Interval For a Alert | 30m |
 | Wait to Notify | 30s |
 | Notify Interval for a Group | 1m |
+
+
 ![Policy Rules](images/image45.png)
 
 
@@ -427,7 +439,7 @@ After ~10 minutes, you will receive alert on email for Critical Status on Arcadi
 
 ---
 
-## 4 – TLS Report
+## 5 – TLS Report
 
 Add another HTTP Monitor for the TLS Report. Configure only the parameters listed below and leave all other parameters at their default values.
 
@@ -456,8 +468,9 @@ Navigate to **Synthetic Monitors > HTTP Monitors > All Monitors**. Click `vuln-b
 After 5–10 minutes, the TLS Score will appear. Click **TLS Report**. A sidebar will open displaying the TLS report. Observe that the **TLS Rating is B** and the **TLS Score is 94/100**.
 ![vuln-bank Monitor](images/image51.png)
 
-
 Click on **Open as PDF** to see detailed report. It will open pop up or new tab.
+
+
 ![TLS Score](images/image52.png)
 
 
@@ -485,7 +498,7 @@ Refer to the PDF to review the detailed TLS report.
 
 ---
 
-## 5 – DNS Monitor
+## 6 – DNS Monitor
 
 ### Create DNS Monitor
 
