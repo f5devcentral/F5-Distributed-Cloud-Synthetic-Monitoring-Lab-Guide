@@ -43,7 +43,7 @@ Ensure that you have a MyF5 account using the same email address you used to reg
 
 After the lab environment is ready (Running status with a green icon), you will receive an email from no-reply@cloud.f5.com. Click **Accept Invitation**.
 
-![Accept Invitation](images/image4.png)
+![Accept Invitation](images/image4a.png)
 
 > To successfully sign in to F5 Distributed Cloud tenant, first sign in to MyF5 Account on the same browser.
 
