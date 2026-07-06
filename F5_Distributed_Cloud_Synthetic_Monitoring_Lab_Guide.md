@@ -286,6 +286,7 @@ Navigate to **Synthetic Monitors > HTTP Monitors > All Monitors**. Click `arcadi
 HTTP Monitor on `arcadia-api` shown **Healthy** Status. No time out from all regions.
 
 ![Switch to arcadia-trading](images/image26a.png)
+
 ![arcadia-trading Critical](images/image27a.png)
 
 The API service is in a Healthy state.
@@ -425,14 +426,20 @@ Click **Apply > Add Alert Policy**
 ### Activate Alert Policy
 
 Navigate to **Manage > Alerts Management > Active Alert Policies**. Click **Manage Active Alert Policy**.
+
+
 ![Notification Parameters](images/image46.png)
 
 
 Add item > select `monitoring-alert-policy`. Click **Save Active Alert Policies**
+
+
 ![Active Alert Policies](images/image47.png)
 
 
 After ~10 minutes, you will receive alert on email for Critical Status on Arcadia-Trading HTTP Monitor. Below is the example email alert.
+
+
 ![Save Alert Policy](images/image48a.png)
 
 
@@ -455,11 +462,15 @@ Add another HTTP Monitor for the TLS Report. Configure only the parameters liste
 | Section | Parameter | Value |
 |---------|-----------|-------|
 | **Where to Monitor From** | F5 Distributed Cloud | ves-io-sydney, ves-io-jakarta, ves-io-tokyo, ves-io-singapore, ves-io-hongkong |
+
+
 ![Critical Alert Email](images/image49.png)
+
+
 ![vuln-bank Config](images/image50.png)
 
-Click **Add HTTP Monitor**
 
+Click **Add HTTP Monitor**
 
 
 ### View TLS Report
@@ -467,7 +478,10 @@ Click **Add HTTP Monitor**
 Navigate to **Synthetic Monitors > HTTP Monitors > All Monitors**. Click `vuln-bank`.
 
 After 5–10 minutes, the TLS Score will appear. Click **TLS Report**. A sidebar will open displaying the TLS report. Observe that the **TLS Rating is B** and the **TLS Score is 94/100**.
+
+
 ![vuln-bank Monitor](images/image51.png)
+
 
 Click on **Open as PDF** to see detailed report. It will open pop up or new tab.
 
@@ -476,7 +490,11 @@ Click on **Open as PDF** to see detailed report. It will open pop up or new tab.
 
 
 Below is an example of a TLS Report. Refer to the PDF to review the detailed TLS report.
+
+
 ![TLS Report PDF](images/image53a.png)
+
+
 ### Compare TLS Reports
 
 Let's observe TLS Report for other HTTP Monitors previously configured.
@@ -494,7 +512,9 @@ Click on **Open as PDF** to see detailed report. It will open pop up or new tab.
 ![TLS Score](images/image52.png)
 
 Refer to the PDF to review the detailed TLS report.
+
 ![arcadia-main TLS PDF](images/image56a.png)
+
 ***End of Section***
 
 ---
@@ -534,13 +554,18 @@ Navigate to **Synthetic Monitors > DNS Monitors > All Monitors Tab**. Click `arc
 Wait 5-10 minutes.
 
 Observe DNS Monitoring Global Summary for arcadia is **healthy**. With Current, Average and Max Latency.
+
+
 ![DNS Monitor Config](images/image58.png)
 
 
 > Global value is calculated by average from all regions configured
 
 
-
 Scroll down to observe **Response Time by Region**
+
+
 ![DNS Global Summary](images/image59.png)
+
+
 ***End of Section***
