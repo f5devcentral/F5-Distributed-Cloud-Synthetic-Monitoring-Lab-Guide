@@ -31,7 +31,7 @@ This lab demonstrates how F5 Distributed Cloud Synthetic Monitoring can be used 
 
 Ensure LAB environment is ready and running to execute subsequent task.
 
-![Lab Environment](images/image2.png)
+![Lab Environment](images/image2a.png)
 
 ### MyF5 Login
 
