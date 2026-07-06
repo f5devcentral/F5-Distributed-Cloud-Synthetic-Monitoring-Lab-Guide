@@ -37,7 +37,7 @@ Ensure LAB environment is ready and running to execute subsequent task.
 
 Ensure that you have a MyF5 account using the same email address you used to register for the lab. If you do not have one, please proceed with Sign Up. This step is required to sign in to the F5 XC Dashboard later. Sign in to MyF5 using the following URL: https://account.f5.com/myf5.
 
-![MyF5 Sign In](images/image3.png)
+![MyF5 Sign In](images/image3a.png)
 
 ### F5 XC Tenant (f5-xc-lab-sec) Sign in
 
