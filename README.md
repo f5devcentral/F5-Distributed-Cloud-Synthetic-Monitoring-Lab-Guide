@@ -20,11 +20,12 @@ This repository contains a comprehensive lab guide for **F5 Distributed Cloud Sy
 | Section | Description |
 |---------|-------------|
 | **Prerequisites** | Setting up MyF5 account and accessing the lab environment |
-| **Section 1** | Configure HTTP Synthetic Monitors for Arcadia Finance |
-| **Section 2** | Observe HTTP Synthetic Monitors and analyze health status |
-| **Section 3** | Create Alert Policy for critical event notifications |
-| **Section 4** | TLS Report analysis and security assessment |
-| **Section 5** | DNS Monitor configuration and observation |
+| **Section 1** | Configure HTTP Synthetic Monitors (Arcadia Main, Trading, API) |
+| **Section 2** | Observe HTTP Synthetic Monitors (Arcadia Main, Trading, API) |
+| **Section 3** | Advanced Health Policy |
+| **Section 4** | Alert Policy |
+| **Section 5** | TLS Report |
+| **Section 6** | DNS Monitor configuration and observation |
 
 ## 🏗️ Target Application
 
